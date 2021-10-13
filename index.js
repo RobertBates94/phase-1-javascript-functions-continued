@@ -8,6 +8,7 @@ function mondayWork (activity = 'go to the office') {
 
 function wrapAdjective (f = "*") {
     const innerFunction = function (emphatic = 'special') {
-        return `You are ${result}a ${emphatic}${f}!`
+        return `You are ${f} ${emphatic}${f}!`
     }
+    return innerFunction
 }
